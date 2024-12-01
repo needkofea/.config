@@ -25,7 +25,6 @@
 		"custom/l_end",
 		"custom/power",
 		"custom/cliphist",
-		"custom/wbar",
 		"custom/theme",
 		"custom/wallchange",
 		"custom/r_end",
@@ -89,18 +88,6 @@
         "interval" : 86400, // once every day
         "tooltip": true
     },
-
-    "custom/wbar": {
-        "format": "{}", //    //
-        "rotate": 0,
-        "exec": "echo ; echo  switch bar //  dock",
-        "on-click": "wbarconfgen.sh n",
-        "on-click-right": "wbarconfgen.sh p",
-        "on-click-middle": "sleep 0.1 && quickapps.sh kitty firefox spotify code dolphin",
-        "interval" : 86400,
-        "tooltip": true
-    },
-
     "custom/theme": {
         "format": "{}",
         "rotate": 0,
