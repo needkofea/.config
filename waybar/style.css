@@ -94,6 +94,7 @@ tooltip {
     min-height: 10px
 }
 
+
 #backlight,
 #battery,
 #bluetooth,
@@ -134,6 +135,11 @@ tooltip {
     margin: 4px 0px 4px 0px;
     padding-left: 4px;
     padding-right: 4px;
+}
+
+#custom-power{
+    padding-right: 4px;
+    padding-left: 1px;
 }
 
 #workspaces,
