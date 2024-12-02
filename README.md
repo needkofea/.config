@@ -15,5 +15,7 @@ Therefore when cloning, you have to include the `--recurse-submodules` flag.
 
    The dotfiles are highly dependent on HyDE and the stuff it installs. So I highly recommend you to HyDE first.
 
+2. `playerctl` - https://github.com/altdesktop/playerctl
+
 ## Future plans
 1. Make the dotfiles fully independent of HyDE
