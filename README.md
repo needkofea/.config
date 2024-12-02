@@ -5,6 +5,10 @@ These dotfiles are incomplete.
 
 It is recommended that you first install the dotfiles at `https://github.com/prasanthrangan/hyprdots`, before then patching them with these repo's dotfiles.
 
+> [!IMPORTANT]
+> Do not expect these dotfiles to work perfectly with HyDE features.
+> In fact, these configs WILL conflict with many of HyDE features. (eg. waybar switching, wallpaper switching).
+
 ## NEOVIM
 The nvim config is stored in another repository. It is referenced in this repo as a git submodule.
 
