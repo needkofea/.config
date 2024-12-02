@@ -86,8 +86,15 @@ tooltip {
     transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
 }
 
+#tray menu{
+    border-radius: 8px;
+    border: 1px solid @wb-act-color;
+    background: @main-bg;
+}
+
 #tray menu * {
-    min-height: 16px
+    min-height: 16px;
+    border-radius: 6px;
 }
 
 #tray menu separator {
