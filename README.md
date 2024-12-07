@@ -14,6 +14,18 @@ The nvim config is stored in another repository. It is referenced in this repo a
 
 Therefore when cloning, you have to include the `--recurse-submodules` flag.
 
+## SDDM Theme
+You can install the sddm theme by running:
+```
+~/.config/sddm/install_theme.sh
+```
+Assuming you cloned this repo into `~/.config`.
+
+This will download the deps for the sddm theme and symlink it into `/usr/share/sddm/themes/nightcore`
+
+You still have to manually configure sddm to select the theme. See https://man.archlinux.org/man/sddm.conf.5
+
+
 ## Dependencies
 1. HyDE - https://github.com/prasanthrangan/hyprdots
 
