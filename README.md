@@ -21,7 +21,7 @@ Therefore when cloning, you have to include the `--recurse-submodules` flag.
 
 2. `playerctl` - https://github.com/altdesktop/playerctl
 3. `waybar` - https://github.com/Alexays/Waybar
-
+4. `pamixer` - https://github.com/cdemoulins/pamixer
 
 ## Future plans
 1. Make the dotfiles fully independent of HyDE
