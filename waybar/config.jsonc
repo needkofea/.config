@@ -237,7 +237,7 @@
         }
     },
     "pulseaudio#microphone": {
-        "format": "{format_source}",
+        "format": "{format_source} ",
         "rotate": 0,
         "format-source": "",
         "format-source-muted": "",
