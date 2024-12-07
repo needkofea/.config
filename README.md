@@ -21,7 +21,10 @@ You can install the sddm theme by running:
 ```
 Assuming you cloned this repo into `~/.config`.
 
-This will download the deps for the sddm theme and symlink it into `/usr/share/sddm/themes/nightcore`
+This will download the deps for the sddm theme 
+~~and symlink it~~ (SDDM cannot seem to read symlinks) and copy the theme into `/usr/share/sddm/themes/nightcore`.
+
+
 
 You still have to manually configure sddm to select the theme. See https://man.archlinux.org/man/sddm.conf.5
 
