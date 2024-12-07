@@ -95,7 +95,7 @@
         }
     },
     "custom/spotify": {
-        "exec": "python3 $HOME/.config/waybar/scripts/mediaplayer.py --player spotify",
+        "exec": "python3 $HOME/.config/scripts/mediaplayer.py --player spotify",
         "format": "{}",
         "rotate": 0,
         "return-type": "json",
