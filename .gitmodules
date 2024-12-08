@@ -4,3 +4,6 @@
 [submodule "sddm/nightcore"]
 	path = sddm/nightcore
 	url = https://github.com/needkofea/nightcore.git
+[submodule "starship"]
+	path = starship
+	url = https://github.com/needkofea/config-starship
