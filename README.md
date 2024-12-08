@@ -37,6 +37,7 @@ You still have to manually configure sddm to select the theme. See https://man.a
 2. `playerctl` - https://github.com/altdesktop/playerctl
 3. `waybar` - https://github.com/Alexays/Waybar
 4. `pamixer` - https://github.com/cdemoulins/pamixer
+5. `hyprswitch` - https://github.com/H3rmt/hyprswitch/
 
 ## Future plans
 1. Make the dotfiles fully independent of HyDE
