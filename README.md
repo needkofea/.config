@@ -22,7 +22,7 @@ You can install the sddm theme by running:
 Assuming you cloned this repo into `~/.config`.
 
 This will download the deps for the sddm theme 
-~~and symlink it~~ (SDDM cannot seem to read symlinks) and copy the theme into `/usr/share/sddm/themes/nightcore`.
+~~and symlink it~~ (SDDM cannot seem to read symlinks) and copy the theme into `/usr/share/sddm/themes/needkofea`.
 
 
 
