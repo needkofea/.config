@@ -32,7 +32,7 @@
     
     # Set font of notifications
     
-    font = monospace 10
+    font = NotoSansM Nerd Font Propo 9
     # Spacing between lines 
     line-height = 0
     # Markup parsing
