@@ -65,11 +65,11 @@
     hide_duplicate_count = true
     # Show indicatiors  for urls and actions
     show_indicators = no
-   
+    offset = (8, 8)
     ### Icons ###
     
     # Disable icons
-    icon_position = off
+    # icon_position = off
 
     ### History ###
     
