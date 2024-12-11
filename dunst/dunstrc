@@ -46,11 +46,11 @@
     # %p - progress value (if set)
     # %n - progress value no extra characters
     # %% - literal %
-    format = "<b>%a - %s</b>\n%b"
+    format = "<b>%s</b>\n%b\n<i>%a</i>"
     # Align message text horizontally
     alignment = left
     # Align message text vertically
-    vertical_alignment = center
+    vertical_alignment = top
     # Show age of message if message is older than x seconds
     show_age_threshold = -1
     # Split notifications into multiple lines
@@ -65,7 +65,9 @@
     hide_duplicate_count = true
     # Show indicatiors  for urls and actions
     show_indicators = no
-    offset = (8, 8)
+    offset = (0, 64)
+    origin = bottom-center
+    max_icon_size = 48
     ### Icons ###
     
     # Disable icons
@@ -121,7 +123,6 @@
     
     foreground = "#ffffff"
     timeout = 5
-    format = "<b>[i] %a - %s</b>\n%b"
 
 [urgency_critical]
 
