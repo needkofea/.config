@@ -12,7 +12,7 @@
     # Set transparency of notifications
     transparency = 0
     # Height of whole notification    
-    notification_height = (0, 100)
+    notification_height = (, 100)
     width = 300
     
     # Text and seperator padding
@@ -65,8 +65,8 @@
     hide_duplicate_count = true
     # Show indicatiors  for urls and actions
     show_indicators = no
-    offset = (0, 64)
-    origin = bottom-center
+    offset = (10, 10)
+    origin = top-left
     max_icon_size = 48
     ### Icons ###
     
