@@ -11,6 +11,7 @@ if [ -z "$selected" ]; then
 fi
 
 printf "$selected" | cliphist decode | wl-copy
-preview=$( wl-paste )
+copied=$( wl-paste )
 
-notify-send "Copied to clipboard" "\`$preview\`" -a "Clipboard History"
+wtype -- $copied
+notify-send  -a "Clipboard History" -- "Copied to clipboard" "$copied"
