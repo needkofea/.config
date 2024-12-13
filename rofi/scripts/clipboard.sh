@@ -4,6 +4,9 @@ dir="$HOME/.config/rofi/menus"
 theme='clipboard'
 
 ## Run
-cliphist list | rofi -dmenu -theme "$dir/$theme" | cliphist decode | wl-copy
+selected=$(cliphist list | rofi -dmenu -theme "$dir/$theme")
+preview=$(echo "$selected" | sed 's/^[^\t]*\t//')
 
-notify-send "Copied to clipboard" -a "Clipboard History"
+printf "$selected" | cliphist decode | wl-copy
+
+notify-send "Copied to clipboard" "$preview" -a "Clipboard History"
