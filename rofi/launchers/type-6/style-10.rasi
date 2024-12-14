@@ -183,6 +183,9 @@ element-text {
 /*****----- Message -----*****/
 message {
     background-color:            transparent;
+    border-radius:               10px;
+    border:                      1px;
+    border-color: @bordercolor;
 }
 textbox {
     padding:                     15px;
