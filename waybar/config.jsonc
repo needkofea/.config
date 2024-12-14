@@ -5,7 +5,7 @@
     ],
     "position": "top",
     "mod": "dock",
-    "height": 31,
+    "height": 30,
     "exclusive": true,
     "passthrough": false,
     "gtk-layer-shell": true,
@@ -80,7 +80,7 @@
     "wlr/taskbar": {
         "format": "{icon}",
         "rotate": 0,
-        "icon-size": 18,
+        "icon-size": 16,
         "icon-theme": "Tela-circle-dracula",
         "spacing": 0,
         "tooltip-format": "{title}",
