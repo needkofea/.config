@@ -92,7 +92,7 @@ tooltip {
 #battery,
 #bluetooth,
 #custom-cava,
-#custom-cliphist,
+#custom-launcher,
 #clock,
 #custom-cpuinfo,
 #cpu,
@@ -112,7 +112,6 @@ tooltip {
 #custom-theme,
 #tray,
 #custom-updates,
-#custom-wallchange,
 #custom-wbar,
 #window,
 #workspaces,
@@ -121,7 +120,7 @@ tooltip {
 #custom-sl_end,
 #custom-sr_end,
 #custom-rl_end,
-#custom-rr_end {
+#custom-rr_end{
     color: @main-fg;
     background: @main-bg;
     opacity: 1;
@@ -131,13 +130,18 @@ tooltip {
 }
 
 #custom-power{
-    padding-right: 4px;
+    padding-right: 6px;
     padding-left: 1px;
 }
 
 #workspaces,
 #taskbar {
     padding: 0px;
+}
+
+#custom-launcher{
+    font-size: 14px;
+    padding-right: 1px;
 }
 
 #custom-r_end {
