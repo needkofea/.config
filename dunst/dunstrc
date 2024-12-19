@@ -13,10 +13,10 @@
     transparency = 0
     # Height of whole notification    
     notification_height = (, 100)
-    width = 300
+    width = (250,500)
     
     # Text and seperator padding
-    padding = 6
+    padding = 8
     # Horizontal padding
     horizontal_padding = 8
     # Width of frame around window
@@ -46,7 +46,7 @@
     # %p - progress value (if set)
     # %n - progress value no extra characters
     # %% - literal %
-    format = "<b>%s</b>\n%b\n<i>%a</i>"
+    format = "<span rise=""><b>%s</b>\n%b\n<i>%a</i></span>"
     # Align message text horizontally
     alignment = left
     # Align message text vertically
@@ -71,7 +71,7 @@
     ### Icons ###
     
     # Disable icons
-    # icon_position = off
+    icon_position = left
 
     ### History ###
     
