@@ -38,6 +38,20 @@ You still have to manually configure sddm to select the theme. See https://man.a
 3. `waybar` - https://github.com/Alexays/Waybar
 4. `pamixer` - https://github.com/cdemoulins/pamixer
 5. `hyprswitch` - https://github.com/H3rmt/hyprswitch/
+6. `swappy`
+7. `starship` - Shell prompt
+8. `rofi`
+9. `kvantum`, `qt5ct`, `qt6ct`
+10. `sddm`
+11. `dunst` - Notifications
+12. `pavucontrol`
+13. `swww` - Wallpaper
+14. `zsh` - Shell
+15. `flatpak` - Application management
+   1. `gnome-software` - GUI for flatpak
+16. `seahorse`- PGP keys management
+    1. `gnome-keyring`
+17. `swaylock`
 
 ## Future plans
 1. Make the dotfiles fully independent of HyDE
