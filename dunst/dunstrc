@@ -66,7 +66,7 @@
     # Show indicatiors  for urls and actions
     show_indicators = no
     offset = (10, 10)
-    origin = bottom-right
+    origin = top-right
     max_icon_size = 48
     ### Icons ###
     

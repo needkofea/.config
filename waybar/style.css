@@ -24,7 +24,8 @@ tooltip {
 #workspaces button, #taskbar button{
     box-shadow: none;
 	text-shadow: none;
-    padding: 2px;
+    padding: 0 4px;
+    padding-right: 6px;
     border-radius: 6px;
     margin: 3px 2px;
 }
@@ -57,26 +58,31 @@ tooltip {
 
 #taskbar button.active {
     background: @wb-act-bg;
-    color: @wb-act-color;
+    color: @wb-act-fg;
     animation: tb_active 20s ease-in-out 1;
 }
 
 #taskbar button:hover {
     background: @wb-hvr-bg;
-    color: @wb-hvr-color;
+    color: @wb-act-fg;
     animation: tb_hover 20s ease-in-out 1;
     transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
 }
 
 #tray menu{
     border-radius: 8px;
-    border: 1px solid @wb-act-color;
+    border: 1px solid;
+    border-color: @wb-hvr-color;
     background: @main-bg;
 }
 
 #tray menu * {
     min-height: 16px;
     border-radius: 6px;
+}
+
+#tray menu *:hover{
+    color: #f5e0dc;
 }
 
 #tray menu separator {

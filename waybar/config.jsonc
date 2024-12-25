@@ -3,9 +3,9 @@
     "output": [
         "*"
     ],
-    "position": "bottom",
+    "position": "top",
     "mod": "dock",
-    "height": 34,
+    "height": 30,
     "exclusive": true,
     "passthrough": false,
     "gtk-layer-shell": true,
@@ -24,14 +24,14 @@
         "hyprland/workspaces",
         "custom/r_end",
         "custom/l_end",
-        "hyprland/window",
+        "wlr/taskbar",
         "custom/r_end",
         "custom/padd"
     ],
     "modules-center": [
         "custom/padd",
         "custom/l_end",
-        "wlr/taskbar",
+        "hyprland/window",
         "custom/r_end",
         "custom/padd"
     ],
@@ -70,10 +70,9 @@
         "on-click": "sh $HOME/.config/rofi/scripts/launcher.sh",
     },
     "wlr/taskbar": {
-        "format": "{icon}",
+        "format": "{icon} {name}",
         "rotate": 0,
-        "icon-size": 18,
-        "icon-theme": "Tela-circle-dracula",
+        "icon-size": 16,
         "spacing": 0,
         "tooltip-format": "{title}",
         "on-click": "activate",
@@ -146,7 +145,7 @@
         ]
     },
     "tray": {
-        "icon-size": 18,
+        "icon-size": 16,
         "rotate": 0,
         "spacing": 5
     },
