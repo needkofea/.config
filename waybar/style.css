@@ -24,8 +24,8 @@ tooltip {
 #workspaces button, #taskbar button{
     box-shadow: none;
 	text-shadow: none;
-    padding: 2px 4px;
-    border-radius: 8px;
+    padding: 2px;
+    border-radius: 6px;
     margin: 3px 2px;
 }
 
@@ -59,9 +59,6 @@ tooltip {
     background: @wb-act-bg;
     color: @wb-act-color;
     animation: tb_active 20s ease-in-out 1;
-
-    padding-left: 8px;
-    padding-right: 8px;
 }
 
 #taskbar button:hover {
@@ -114,17 +111,11 @@ tooltip {
 #custom-updates,
 #custom-wbar,
 #window,
-#workspaces,
-#custom-l_end,
-#custom-r_end,
-#custom-sl_end,
-#custom-sr_end,
-#custom-rl_end,
-#custom-rr_end{
+#workspaces {
     color: @main-fg;
     background: @main-bg;
     opacity: 1;
-    margin: 3px 0px 3px 0px;
+    margin: 3px 0px;
     padding-left: 4px;
     padding-right: 4px;
 }
@@ -144,16 +135,22 @@ tooltip {
     padding-right: 1px;
 }
 
+
+#custom-r_end, #custom-l_end{
+    margin: 3px 0px;
+    background: @main-bg;
+}
+
 #custom-r_end {
     border-radius: 0px 21px 21px 0px;
     margin-right: 4px;
-    padding-right: 0px;
+    
 }
 
 #custom-l_end {
     border-radius: 21px 0px 0px 21px;
     margin-left: 4px;
-    padding-left: 0px;
+    
 }
 
 

@@ -3,9 +3,9 @@
     "output": [
         "*"
     ],
-    "position": "top",
+    "position": "bottom",
     "mod": "dock",
-    "height": 30,
+    "height": 34,
     "exclusive": true,
     "passthrough": false,
     "gtk-layer-shell": true,
@@ -16,7 +16,6 @@
         "on-scroll-down": "hyprctl dispatch workspace e-1"
     },
     "modules-left": [
-        "custom/padd",
         "custom/l_end",
         "custom/power",
         "custom/launcher",
@@ -25,24 +24,19 @@
         "hyprland/workspaces",
         "custom/r_end",
         "custom/l_end",
-        "wlr/taskbar",
+        "hyprland/window",
         "custom/r_end",
         "custom/padd"
     ],
     "modules-center": [
         "custom/padd",
         "custom/l_end",
-        "hyprland/window",
+        "wlr/taskbar",
         "custom/r_end",
         "custom/padd"
     ],
     "modules-right": [
         "custom/padd",
-        "custom/l_end",
-        "privacy",
-        "tray",
-        "battery",
-        "custom/r_end",
         "custom/l_end",
         "custom/spotify",
         "backlight",
@@ -52,10 +46,14 @@
         "custom/keybindhint",
         "custom/r_end",
         "custom/l_end",
+        "privacy",
+        "tray",
+        "battery",
+        "custom/r_end",
+        "custom/l_end",
         "idle_inhibitor",
         "clock",
-        "custom/r_end",
-        "custom/padd"
+        "custom/r_end"
     ],
     // sourced from modules based on config.ctl //
     "custom/power": {
@@ -71,11 +69,10 @@
         "format": "󱗼",
         "on-click": "sh $HOME/.config/rofi/scripts/launcher.sh",
     },
-
     "wlr/taskbar": {
         "format": "{icon}",
         "rotate": 0,
-        "icon-size": 16,
+        "icon-size": 18,
         "icon-theme": "Tela-circle-dracula",
         "spacing": 0,
         "tooltip-format": "{title}",
