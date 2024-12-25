@@ -24,24 +24,21 @@ tooltip {
 #workspaces button, #taskbar button{
     box-shadow: none;
 	text-shadow: none;
-    padding: 0 4px;
-    padding-right: 6px;
-    border-radius: 6px;
+    padding: 0 2px;
+    padding-right: 4px;
+    border-radius: 5px;
     margin: 3px 2px;
 }
 
 #workspaces button {
     color: @main-fg;
-    transition: all 0.4s cubic-bezier(.55,-0.68,.48,1.682);
-    animation: ws_normal 20s ease-in-out 1;
+    transition: all 0.4s ease;   
 }
 
 #workspaces button.active {
     background: @wb-act-bg;
     color: @wb-act-fg;
-    padding: 0px 12px;
-    animation: ws_active 20s ease-in-out 1;
-    
+    padding: 0px 8px;
 }
 
 #workspaces button:hover {
@@ -150,7 +147,6 @@ tooltip {
 #custom-r_end {
     border-radius: 0px 21px 21px 0px;
     margin-right: 4px;
-    
 }
 
 #custom-l_end {
