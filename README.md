@@ -31,27 +31,47 @@ You still have to manually configure sddm to select the theme. See https://man.a
 
 ## Dependencies
 1. HyDE - https://github.com/prasanthrangan/hyprdots
-
    The dotfiles are highly dependent on HyDE and the stuff it installs. So I highly recommend you to HyDE first.
+2. `starship` - Shell prompt
+3. `zsh` - Shell
+4. `yay` - AUR helper
+5. `hyprland` - The window manager
+6. `pipewire` - Audio
+    1. `pipewire-alsa` 
+    2. `pipewire-audio` 
+    3. `pipewire-jack` 
+    4. `pipewire-puls` 
 
-2. `playerctl` - https://github.com/altdesktop/playerctl
-3. `waybar` - https://github.com/Alexays/Waybar
-4. `pamixer` - https://github.com/cdemoulins/pamixer
-5. `hyprswitch` - https://github.com/H3rmt/hyprswitch/
-6. `swappy`
-7. `starship` - Shell prompt
-8. `rofi`
-9. `kvantum`, `qt5ct`, `qt6ct`
-10. `sddm`
-11. `dunst` - Notifications
-12. `pavucontrol`
-13. `swww` - Wallpaper
-14. `zsh` - Shell
-15. `flatpak` - Application management
-   1. `gnome-software` - GUI for flatpak
-16. `seahorse`- PGP keys management
-    1. `gnome-keyring`
-17. `swaylock`
+
+**Desktop Shell**
+1. `sddm` - Display Manager 
+2. `dunst` - Notifications
+3. `pavucontrol` - Pulse Audio GUI
+4. `swww` - Wallpaper
+5. `swaylock` - Lock screen (Super + L)
+6. `waybar` - https://github.com/Alexays/Waybar
+7. `hyprswitch` - https://github.com/H3rmt/hyprswitch/
+8. `playerctl` - https://github.com/altdesktop/playerctl
+9. `pamixer` - https://github.com/cdemoulins/pamixer
+10. `kvantum`, `qt5ct`, `qt6ct` - Theming fot Qt apps
+11. `swappy` - Snapshot editor
+12. `rofi` - General launcher for apps.
+
+**Desktop Portals (For inter App communication & screen sharing)**
+1. `xdg-desktop-portal 1.18.4-2`
+2. `xdg-desktop-portal-gtk 1.15.1-2`
+3. `xdg-desktop-portal-hyprland 1.3.9-3`
+
+**Fonts**
+1. `noto-fonts-emoji` - Noto Color Emoji
+2. `ttf-jetbrains-mono-nerd` - Jetbrains Nerd Font
+
+**Essential Apps**
+1. `flatpak` - Application management
+2. `gnome-software` - GUI for flatpak
+3. `seahorse`- GUI PGP keys management
+4. `gnome-keyring` - Backend for PGP keys
+
 
 ## Future plans
 1. Make the dotfiles fully independent of HyDE
