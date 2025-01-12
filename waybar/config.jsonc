@@ -3,7 +3,7 @@
     "output": [
         "*"
     ],
-    "position": "top",
+    "position": "bottom",
     "mod": "dock",
     "height": 30,
     "exclusive": true,

@@ -14,4 +14,3 @@ printf "$selected" | cliphist decode | wl-copy
 copied=$( wl-paste )
 
 wtype -- $copied
-notify-send  -a "Clipboard History" -- "Copied to clipboard" "$copied"
