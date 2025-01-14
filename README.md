@@ -2,7 +2,7 @@
 
 > [!WARNING]
 > This repository is deprecated. 
-> Am slowly moving over config to https://github.com/needkofea/dots.kofea
+> Am slowly moving over config to https://github.com/needkofea/kofea.shell
 >
 
 These dotfiles are incomplete.
