@@ -1,5 +1,9 @@
 # Kofea's dotfiles
 
+> [!WARNING]
+> This repository is deprecated. 
+> Am slowly moving over config to https://github.com/needkofea/dots.kofea
+>
 
 These dotfiles are incomplete.
 
